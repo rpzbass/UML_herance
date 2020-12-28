@@ -74,7 +74,7 @@ public class Account {
 		sb.append("----------BANK JAVA v0.2---------------\n");
 		sb.append("\n\nHOLDER NAME: "+ this.getHolder()+"\n");
 		sb.append("NUMBER ACCOUNT: "+this.getNumber()+"\n");
-		sb.append("BALANCE "+ String.format("%.2f",this.balance) +"\n");
+		sb.append("BALANCE "+ String.format("%.2f",this.getBalance()) +"\n");
 		
 		return sb.toString();
 		
